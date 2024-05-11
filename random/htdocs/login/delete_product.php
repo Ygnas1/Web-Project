@@ -2,7 +2,6 @@
 
 <a href="admin_dashboard.php" class="button">Go to Dashboard</a>
 
-	<!-- Some basic CSS to make the anchor look like a button -->
 	<style>
 		.button {
 			display: inline-block;
@@ -23,14 +22,14 @@
 <?php
 
 
-require 'init.php'; // Assuming the deleteProduct function is in this file
-
+require 'init.php'; 
+// init.php yra deleto funkcija tai isimetam ja i delete_product.php file
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : null;
 
-// Check if the person is not an admin
+// Checkina ar adminas
 if ($role != "admin") {
     header("Location: user_dashboard.php");
-    exit; // Ensure no further code is executed after redirection
+    exit;
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['prekes_id'])) {

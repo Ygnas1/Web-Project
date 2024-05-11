@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Setup a PDO connection (this example assumes you are using MySQL)
+// connectina databasea (PDO) kad galeciau is 2 tables dirbt or smth like that
 $db = new PDO("mysql:host=localhost;dbname=login_sample_db", "user_name", "password");
 
 function getdb() {

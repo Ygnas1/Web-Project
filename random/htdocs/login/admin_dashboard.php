@@ -1,17 +1,17 @@
 <?php
-require 'auth.php'; // Ensure this file contains isAdmin() function
-require 'init.php'; // Your database connection setup
+require 'auth.php'; 
+require 'init.php'; 
 
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : null;
 
-// Check if the person is not an admin
+
 if ($role != "admin") {
     header("Location: user_dashboard.php");
-    exit; // Ensure no further code is executed after redirection
+    exit; 
 }
 $db = getDB();
 
-// Fetch all products from the database
+// Fetchina is dabataseo prekes ir atributes
 $stmt = $db->prepare("SELECT * FROM products ORDER BY prekes_id DESC");
 $stmt->execute();
 $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -71,10 +71,10 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
             font-size: 14px;
         }
         .edit-btn {
-            background-color: #f39c12; /* Orange */
+            background-color: #f39c12;
         }
         .delete-btn {
-            background-color: #e74c3c; /* Red */
+            background-color: #e74c3c;
         }
         .delete-btn:hover, .edit-btn:hover {
             opacity: 0.9;
@@ -90,7 +90,6 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <h1>Admin Dashboard</h1>
     <a href="add_product.php" class="button edit-btn">Add New Product</a>
 
-    <!-- Check if there are products to display -->
     <?php if (empty($products)): ?>
         <p>No products found.</p>
     <?php else: ?>

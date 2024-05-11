@@ -4,26 +4,25 @@ require 'init.php';
 
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : null;
 
-// Check if the person is not an admin
 if ($role != "admin") {
     header("Location: user_dashboard.php");
-    exit; // Ensure no further code is executed after redirection
+    exit; 
 }
 $db = getDB();
 $product = null;
 
-// Check if the product ID is passed
+// Makina new ID
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['prekes_id'])) {
     $prekesId = $_POST['prekes_id'];
 
-    // Fetch the product data from the database
+    // Fetchina prekiu data
     $stmt = $db->prepare("SELECT * FROM products WHERE prekes_id = :id");
     $stmt->execute([':id' => $prekesId]);
     $product = $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
-    // Handle the form submission for updating product details
+    // Prisiskiri pavadinima kazkokiai 'mini funkcijai' kad galetum editint later
     $prekesId = $_POST['prekes_id'];
     $kategorija = $_POST['prekes_kategorija'];
     $modelis = $_POST['modelis'];
@@ -33,15 +32,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
     $stmt = $db->prepare("UPDATE products SET prekes_kategorija = :kategorija, modelis = :modelis, gamintojas = :gamintojas, sandely = :sandely WHERE prekes_id = :id");
     $stmt->execute([':kategorija' => $kategorija, ':modelis' => $modelis, ':gamintojas' => $gamintojas, ':sandely' => $sandely, ':id' => $prekesId]);
 
-    header("Location: admin_dashboard.php"); // Redirect back to the products page
+    header("Location: admin_dashboard.php"); // Redirectas atgal i produktu page
     exit();
 }
 
-// Check if product data is available for editing
+// Checkina ar galima editint info
 if ($product === null) {
     echo "<p>Product not found or invalid product ID.</p>";
     exit;
 }
+//toliau stinky html code for visuals
 ?>
 <!DOCTYPE html>
 <html lang="en">

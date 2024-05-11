@@ -15,3 +15,5 @@ if ($conn->connect_error) {
 
 // Optionally, you could also set the character set to ensure proper encoding
 $conn->set_charset("utf8");
+
+// Purely CGPT generated sitas

@@ -4,10 +4,10 @@ require 'init.php';
 
 $role = isset($_SESSION['role']) ? $_SESSION['role'] : null;
 
-// Check if the person is not an admin
+// Checkina ar adminas
 if ($role != "admin") {
     header("Location: user_dashboard.php");
-    exit; // Ensure no further code is executed after redirection
+    exit; // Uztikrina kad tolimesnis kodas veiks
 }
 $message = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -1,17 +1,16 @@
 <?php
-session_start(); // Start the session
+session_start(); 
 
-require 'db.php'; // Include database connection
+require 'db.php'; 
 
-// Initialize a variable to hold error messages
 $error = '';
 
-// Check if the form has been submitted
+// Checkina ar uzpilde langelius
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Prepare a SQL statement to fetch user data based on the submitted username
+    // Fetchina user info
     $sql = $conn->prepare("SELECT user_id, password, role FROM users WHERE user_name=?");
     $sql->bind_param("s", $username);
     $sql->execute();
@@ -29,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user_name'] = $user_name;
             $_SESSION['role'] = $role;
 
-            // Redirect user based on the role
+            // Redirectina useri based on role
             header("location: " . ($role == 'admin' ? 'admin_dashboard.php' : 'user_dashboard.php'));
             exit;
         } else {

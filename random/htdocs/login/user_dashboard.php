@@ -1,10 +1,10 @@
 <?php
-require 'auth.php'; // Ensure this file contains isAdmin() function
-require 'init.php'; // Your database connection setup
+require 'auth.php'; 
+require 'init.php'; 
 
 $db = getDB();
 
-// Fetch all products from the database
+// Fetchina visus produktus is DB
 $stmt = $db->prepare("SELECT * FROM products ORDER BY prekes_id DESC");
 $stmt->execute();
 $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -63,7 +63,7 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <h1>Product Dashboard</h1>
 
-    <!-- Check if there are products to display -->
+    <!-- checkina ar yra kazkokie produktai kuriuos gali displayint -->
     <?php if (empty($products)): ?>
         <p>No products found.</p>
     <?php else: ?>
