@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 11, 2024 at 06:13 PM
+-- Generation Time: May 11, 2024 at 09:01 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,8 +40,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`prekes_id`, `prekes_kategorija`, `modelis`, `gamintojas`, `sandely`) VALUES
-(18, 'Fotoaparatai', 'Canon sg 123', 'Canon', '4'),
-(20, 'retarded', 'nigger', 'nigeria', '0');
+(18, 'Fotoaparatai', 'Canon sg 123', 'Canon', '4');
 
 -- --------------------------------------------------------
 
