@@ -1,0 +1,173 @@
+2024-05-06 20:35:45 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 14228
+2024-05-06 20:35:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-06 20:35:45 0 [Note] InnoDB: Uses event mutexes
+2024-05-06 20:35:45 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-06 20:35:45 0 [Note] InnoDB: Number of pools: 1
+2024-05-06 20:35:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-06 20:35:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-06 20:35:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-06 20:35:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2024-05-06 20:35:45 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-06 20:35:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-06 20:35:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-06 20:35:45 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-06 20:35:45 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-06 20:35:45 0 [Note] InnoDB: Waiting for purge to start
+2024-05-06 20:35:45 0 [Note] InnoDB: 10.4.32 started; log sequence number 300297; transaction id 170
+2024-05-06 20:35:45 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-06 20:35:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-06 20:35:45 0 [Note] Server socket created on IP: '::'.
+2024-05-07  4:27:28 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 272
+2024-05-07  4:27:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-07  4:27:28 0 [Note] InnoDB: Uses event mutexes
+2024-05-07  4:27:28 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-07  4:27:28 0 [Note] InnoDB: Number of pools: 1
+2024-05-07  4:27:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-07  4:27:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-07  4:27:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-07  4:27:28 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=319288
+2024-05-07  4:27:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-07  4:27:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-07  4:27:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-07  4:27:30 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-07  4:27:30 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-07  4:27:30 0 [Note] InnoDB: Waiting for purge to start
+2024-05-07  4:27:30 0 [Note] InnoDB: 10.4.32 started; log sequence number 319297; transaction id 242
+2024-05-07  4:27:30 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-07  4:27:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-07  4:27:30 0 [Note] Server socket created on IP: '::'.
+2024-05-07  6:27:36 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 4404
+2024-05-07  6:27:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-07  6:27:37 0 [Note] InnoDB: Uses event mutexes
+2024-05-07  6:27:37 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-07  6:27:37 0 [Note] InnoDB: Number of pools: 1
+2024-05-07  6:27:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-07  6:27:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-07  6:27:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-07  6:27:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=350090
+2024-05-07  6:27:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-07  6:27:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-07  6:27:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-07  6:27:37 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-07  6:27:37 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-07  6:27:37 0 [Note] InnoDB: Waiting for purge to start
+2024-05-07  6:27:37 0 [Note] InnoDB: 10.4.32 started; log sequence number 350099; transaction id 360
+2024-05-07  6:27:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-07  6:27:37 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-07  6:27:37 0 [Note] Server socket created on IP: '::'.
+2024-05-07 20:23:53 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3120
+2024-05-07 20:23:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-07 20:23:53 0 [Note] InnoDB: Uses event mutexes
+2024-05-07 20:23:53 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-07 20:23:53 0 [Note] InnoDB: Number of pools: 1
+2024-05-07 20:23:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-07 20:23:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-07 20:23:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-07 20:23:53 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=352224
+2024-05-07 20:23:54 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-07 20:23:54 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-07 20:23:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-07 20:23:54 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-07 20:23:54 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-07 20:23:54 0 [Note] InnoDB: Waiting for purge to start
+2024-05-07 20:23:54 0 [Note] InnoDB: 10.4.32 started; log sequence number 352233; transaction id 397
+2024-05-07 20:23:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-07 20:23:54 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-07 20:23:54 0 [Note] InnoDB: Buffer pool(s) load completed at 240507 20:23:54
+2024-05-07 20:23:54 0 [Note] Server socket created on IP: '::'.
+2024-05-08  6:42:24 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 33424
+2024-05-08  6:42:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-08  6:42:24 0 [Note] InnoDB: Uses event mutexes
+2024-05-08  6:42:24 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-08  6:42:24 0 [Note] InnoDB: Number of pools: 1
+2024-05-08  6:42:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-08  6:42:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-08  6:42:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-08  6:42:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=358936
+2024-05-08  6:42:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-08  6:42:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-08  6:42:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-08  6:42:24 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-08  6:42:24 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-08  6:42:24 0 [Note] InnoDB: Waiting for purge to start
+2024-05-08  6:42:24 0 [Note] InnoDB: 10.4.32 started; log sequence number 358945; transaction id 438
+2024-05-08  6:42:24 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-08  6:42:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-08  6:42:24 0 [Note] Server socket created on IP: '::'.
+2024-05-09 17:43:46 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 23824
+2024-05-09 17:43:46 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-09 17:43:46 0 [Note] InnoDB: Uses event mutexes
+2024-05-09 17:43:46 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-09 17:43:46 0 [Note] InnoDB: Number of pools: 1
+2024-05-09 17:43:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-09 17:43:46 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-09 17:43:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-09 17:43:46 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=508975
+2024-05-09 17:43:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-09 17:43:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-09 17:43:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-09 17:43:48 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-09 17:43:48 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-09 17:43:48 0 [Note] InnoDB: Waiting for purge to start
+2024-05-09 17:43:48 0 [Note] InnoDB: 10.4.32 started; log sequence number 508984; transaction id 802
+2024-05-09 17:43:48 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-09 17:43:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-09 17:43:48 0 [Note] Server socket created on IP: '::'.
+2024-05-10 16:20:09 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 21824
+2024-05-10 16:20:09 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-10 16:20:09 0 [Note] InnoDB: Uses event mutexes
+2024-05-10 16:20:09 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-10 16:20:09 0 [Note] InnoDB: Number of pools: 1
+2024-05-10 16:20:09 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-10 16:20:09 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-10 16:20:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-10 16:20:10 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=550570
+2024-05-10 16:20:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-10 16:20:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-10 16:20:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-10 16:20:11 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-10 16:20:11 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-10 16:20:11 0 [Note] InnoDB: Waiting for purge to start
+2024-05-10 16:20:11 0 [Note] InnoDB: 10.4.32 started; log sequence number 550579; transaction id 959
+2024-05-10 16:20:11 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-10 16:20:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-10 16:20:11 0 [Note] Server socket created on IP: '::'.
+2024-05-11 14:51:15 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 46036
+2024-05-11 14:51:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-11 14:51:16 0 [Note] InnoDB: Uses event mutexes
+2024-05-11 14:51:16 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-11 14:51:16 0 [Note] InnoDB: Number of pools: 1
+2024-05-11 14:51:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-11 14:51:16 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-11 14:51:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-11 14:51:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=608661
+2024-05-11 14:51:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-11 14:51:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-11 14:51:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-11 14:51:17 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-11 14:51:17 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-11 14:51:17 0 [Note] InnoDB: Waiting for purge to start
+2024-05-11 14:51:17 0 [Note] InnoDB: 10.4.32 started; log sequence number 608670; transaction id 1149
+2024-05-11 14:51:17 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-11 14:51:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-11 14:51:17 0 [Note] Server socket created on IP: '::'.
+2024-05-11 16:12:49 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 22908
+2024-05-11 16:12:49 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-05-11 16:12:49 0 [Note] InnoDB: Uses event mutexes
+2024-05-11 16:12:49 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-05-11 16:12:49 0 [Note] InnoDB: Number of pools: 1
+2024-05-11 16:12:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-05-11 16:12:49 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2024-05-11 16:12:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-05-11 16:12:49 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=623480
+2024-05-11 16:12:49 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-05-11 16:12:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-05-11 16:12:49 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-05-11 16:12:49 0 [Note] InnoDB: Setting file 'A:\Ignas\random\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-05-11 16:12:49 0 [Note] InnoDB: File 'A:\Ignas\random\mysql\data\ibtmp1' size is now 12 MB.
+2024-05-11 16:12:49 0 [Note] InnoDB: Waiting for purge to start
+2024-05-11 16:12:49 0 [Note] InnoDB: 10.4.32 started; log sequence number 623489; transaction id 1213
+2024-05-11 16:12:49 0 [Note] InnoDB: Loading buffer pool(s) from A:\Ignas\random\mysql\data\ib_buffer_pool
+2024-05-11 16:12:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-05-11 16:12:50 0 [Note] InnoDB: Buffer pool(s) load completed at 240511 16:12:50
+2024-05-11 16:12:50 0 [Note] Server socket created on IP: '::'.
